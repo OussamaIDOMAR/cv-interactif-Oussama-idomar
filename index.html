@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CV Interactif — Oussama Id Omar</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <button class="toggle-btn" id="darkToggle" aria-pressed="false" title="Activer / désactiver le mode sombre">🌙 Mode sombre</button>
+
+    <main class="container" id="main">
+        
+        <header class="header">
+            <div class="profile">
+                <img src="image/photo.png" alt="Photo professionnelle d'Oussama" class="avatar">
+                <div class="name-role">
+                    <h1>Oussama Id Omar</h1>
+                    <p class="subtitle">Développeur Web • Étudiant • Passionné de Tech</p>
+                </div>
+            </div>
+
+            
+            <div class="socials" aria-label="Réseaux sociaux">
+                <a href="https://www.facebook.com/share/1KDzhoownw/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/Oussama_idomar" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://linkedin.com/in/Oussama Id omar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/OussamaIDOMAR" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </header>
+
+        <section class="card">
+            <button class="accordion" aria-expanded="false">Informations Personnelles</button>
+            <div class="panel" hidden>
+                <p><strong>Email :</strong> oussamaidomar64@gamil.com</p>
+                <p><strong>Téléphone :</strong> +212 6 33 06 75 90</p>
+                <p><strong>Adresse :</strong> Marrakech, Maroc</p>
+            </div>
+        </section>
+
+        
+        <section class="card">
+            <button class="accordion" aria-expanded="false">À propos</button>
+            <div class="panel" hidden>
+                <p>Étudiant motivé en informatique, spécialisé dans le développement web et la création d’interfaces modernes et performantes. Je suis à la recherche d’un stage / projet où je peux appliquer mes compétences front-end et back-end.</p>
+            </div>
+        </section>
+
+        
+        <section class="card">
+            <button class="accordion" aria-expanded="false">Compétences</button>
+            <div class="panel" hidden>
+                <div class="skills">
+                    <span>HTML & CSS</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    <span>Java</span>
+                    <span>C++</span>
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="card">
+            <button class="accordion" aria-expanded="false">Formations</button>
+            <div class="panel" hidden>
+                <ul>
+                    <li>Université Cadi Ayyad — Filière IAP (S4)</li>
+                    <li>Baccalauréat Sciences Physiques</li>
+                    <li>Formation en Python </li>
+                    <li>Formation en ceyber security (cours en ligne )</li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <section class="card">
+            <button class="accordion" aria-expanded="false">Expériences Professionnelles</button>
+            <div class="panel" hidden>
+                <article class="experience">
+                    <h3>Stagiaire Développement Web — Projet Universitaire</h3>
+                    <p class="meta">Janvier 2025 — Mars 2025</p>
+                    <p>Participation à la conception d’une application JAVA : Gestion des etudiants .</p>
+                </article>
+
+                <article class="experience">
+                    <h3>Assistant Support Informatique — Freelance</h3>
+                    <p class="meta">Été 2024</p>
+                    <p>creation des sites web (fiverr).</p>
+                </article>
+            </div>
+        </section>
+
+        
+        <section class="card">
+            <button class="accordion" aria-expanded="false">Projets</button>
+            <div class="panel" hidden>
+                <ul>
+                    <li><strong>app web :</strong> to do list .</li>
+                    <li><strong>Gestion d’hôtel :</strong> Application Java + MySQL pour gérer réservations et clients.</li>
+                    <li><strong>Jeu vélo (C++) :</strong> Prototype d’un jeu simple avec gestion des collisions et score.</li>
+                </ul>
+            </div>
+        </section>
+
+      
+        <section class="card">
+            <button class="accordion" aria-expanded="false">Centres d'intérêt</button>
+            <div class="panel" hidden>
+                <p>hiking, Cyclisme, Lecture , trip, programmation .</p>
+            </div>
+        </section>
+
+        
+       
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
